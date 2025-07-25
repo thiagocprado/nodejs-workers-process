@@ -1,5 +1,5 @@
-import { connectDB, closeDB } from "../db/connection";
-import User from "../db/user.model";
+import { connectDB, closeDB } from "../db/connection.js";
+import User from "../db/user.model.js";
 import { faker } from "@faker-js/faker";
 
 function generateUser() {

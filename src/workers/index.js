@@ -12,7 +12,7 @@ const inputFilePath = "./data/legacy_users.ndjson";
 const outputFilePath = "./data/users_encrypted.ndjson";
 
 // Define o número de workers que serão usados para processar os dados em paralelo.
-const numWorkers = 8;
+const numWorkers = 4;
 
 // Cria um array com 4 instâncias de workers, apontando para o script que fará a criptografia.
 const workers = Array.from(

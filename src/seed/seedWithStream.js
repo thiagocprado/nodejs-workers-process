@@ -1,5 +1,5 @@
-import { connectDB, closeDB } from "../db/connection";
-import User from "../db/user.model";
+import User from "../db/user.model.js";
+import { connectDB, closeDB } from "../db/connection.js";
 import { faker } from "@faker-js/faker";
 import { Readable } from "stream";
 
